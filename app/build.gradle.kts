@@ -142,7 +142,7 @@ materialThemeBuilder {
 }
 
 configurations.all {
-    resolutionStrategy.force("com.squareup.okhttp3:okhttp:4.11.0")
+    resolutionStrategy.force("com.squareup.okhttp3:okhttp:4.12.0")
 }
 
 dependencies {
@@ -206,7 +206,7 @@ dependencies {
     implementation("dev.rikka.shizuku:provider:$shizukuVersion")
 
     implementation("io.appwrite:sdk-for-android:4.0.0")
-    implementation("com.squareup.okhttp3:okhttp:4.11.0")
+    implementation("com.squareup.okhttp3:okhttp:4.12.0")
 
     implementation(projects.buildTools)
     implementation(projects.common)
